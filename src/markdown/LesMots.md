@@ -1,4 +1,8 @@
-# Les Mots
+---
+part: 1
+title: Les Mots
+date: "2026-02-28"
+---
 
 Les mots ont-ils un sens ? En cette décennie 2020, la plus sévère des réponses se défendra aisément, tant la communication et le marketing — parmi d’autres formes d’influence — ont investi l’espace au XXIe siècle.
 
