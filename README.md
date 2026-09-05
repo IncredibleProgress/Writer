@@ -1,10 +1,5 @@
-# Template for projects with Solid-js & TailwindCss
+# Writer
+**publish content with Typescript, Solid-js & TailwindCss**
 
-Provides root directory for starting new project built with :
-
-  * Typescript
-  * Solid-js
-  * Tailwindcss
-  * Parcel
-
-It includes config files for building Solid-js apps using Parcel as bundler instead of Vite.
+## Overview
+Writer is currently a prototype for publishing content with Typescript, Solid-js, and TailwindCss, using Parcel as bundler instead of Vite.
