@@ -1,19 +1,14 @@
 {
-    "compilerOptions": {
-      "target": "ESNext",
-      "module": "ESNext",
-      "lib": ["ESNext", "DOM"],
-      "moduleResolution": "bundler",
-      "strict": true,
-      "sourceMap": true,
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "noEmit": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "noImplicitReturns": true,
-      "jsx": "preserve",
-      "jsxImportSource": "solid-js",
-    },
-    "include": ["./typescript", "./resources"]
+  "extends": "astro/tsconfigs/strict",
+  "include": [
+    ".astro/types.d.ts",
+    "**/*"
+  ],
+  "exclude": [
+    "dist"
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
   }
+}

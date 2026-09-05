@@ -1,22 +1,26 @@
 {
-  "name": "solid",
-  "source": "resources/startpage.html",
+  "name": "astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "update": "ncu -u && npm install",
-    "build": "parcel build --no-cache"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "solid-js": "^1.9.3",
-    "tailwindcss": "^3.4.14"
+    "@astrojs/markdown-satteri": "^0.4.0",
+    "@astrojs/mdx": "^8.0.0",
+    "@astrojs/preact": "^6.0.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.1",
+    "preact": "^10.29.8",
+    "tailwindcss": "^4.3.3"
   },
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "babel-preset-solid": "^1.9.3",
-    "npm-check-updates": "^17.1.7",
-    "parcel": "^2.12.0",
-    "solid-refresh": "0.7.5"
-  },
-  "@parcel/resolver-default": {
-    "packageExports": true
+  "allowScripts": {
+    "esbuild": true
   }
 }
