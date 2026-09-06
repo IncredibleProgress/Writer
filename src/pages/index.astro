@@ -1,24 +1,24 @@
 ---
-import '../styles/tailwind.css';
-import { Style } from '../styles/tailwind';
-import { getCollection, render } from 'astro:content';
-
-const tw = new Style();
+import '../styles/tailwind.css'
+import { Style } from '../styles/tailwind'
+import { getCollection, render } from 'astro:content'
+const tw = new Style()
 const articles = (await getCollection('articles')).sort(
-  (a, b) => a.data.part - b.data.part,
-);
+  (a, b) => a.data.part - b.data.part)
 ---
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
-    <title>Les Mots & Le Sens</title>
+    <title>Writer</title>
   </head>
   <body class={tw.preset.body()}>
     <main>
       <section>
-        <h1 class={tw.preset.title()}>Les Mots & Le Sens</h1>
+        <h1 class={tw.preset.title()}>
+          Les Mots & Le Sens </h1>
+          
           {articles.map(async (article) => {
             const { Content } = await render(article);
             return (

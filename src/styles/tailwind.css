@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+html {
+  background: var(--color-stone-200);
+  color: var(--color-stone-900);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+img,
+svg {
+  max-width: 100%;
+}
+::selection {
+  background: rgba(31, 29, 27, 0.12);
+}
