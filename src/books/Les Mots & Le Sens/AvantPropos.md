@@ -1,5 +1,4 @@
 ---
-part: 0
 title: Avant-Propos
 date: "2026-01-31"
 --- 

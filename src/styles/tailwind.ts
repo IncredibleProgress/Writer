@@ -11,9 +11,9 @@ export class Style {
 
   // Preset style definitions for the project
   public presetValues: Record<string, TwClasses> = {
-    body: {
+    main: {
       color: "bg-stone-100",
-      layout: "p-8 mx-auto max-w-3xl min-h-screen rounded-lg",
+      layout: "p-8 max-w-3xl min-h-screen rounded-lg",
     },
     title: {
       font: "text-center text-3xl font-light",

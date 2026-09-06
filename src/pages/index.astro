@@ -4,31 +4,55 @@ import { Style } from '../styles/tailwind'
 import { getCollection, render } from 'astro:content'
 const tw = new Style()
 const articles = (await getCollection('articles')).sort(
-  (a, b) => a.data.part - b.data.part)
+  (a, b) => a.data.order - b.data.order)
 ---
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.png" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Writer</title>
-  </head>
-  <body class={tw.preset.body()}>
-    <main>
-      <section>
-        <h1 class={tw.preset.title()}>
-          Les Mots & Le Sens </h1>
-          
-          {articles.map(async (article) => {
-            const { Content } = await render(article);
-            return (
-              <article id={article.id} class={tw.preset.articleCard()}>
-                <h2 class={tw.preset.articleTitle()}>{article.data.title}</h2>
-                <div class={tw.preset.articleContent()}><Content /></div>
-              </article>
-            );
-          })}
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.png" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Writer</title>
+</head>
+<body class="flex mx-auto max-w-5xl">
+
+  <!-- Sidebar -->
+  <aside class="w-40 my-10">
+      <h3>Articles</h3>
+      <nav>
+        <ul>
+          {articles.map(article => (
+            <li class="ml-4 text-sm space-y-2">
+              <a href={`#${article.id}`}>{article.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+  </aside>
+
+  <!-- Articles -->
+  <main class={tw.preset.main()+"flex-1"}>
+    <h1 class={tw.preset.title()}>
+      Les Mots & Le Sens </h1>     
+      {articles.map(async (article) => {
+        const { Content } = await render(article);
+        return (
+          <article id={article.id} class={tw.preset.articleCard()}>
+            <h2 class={tw.preset.articleTitle()}>{article.data.title}</h2>
+            <div class={tw.preset.articleContent()}><Content /></div>
+          </article>
+        );
+      })}
+  </main>
+
+  <!-- Vanilla JavaScript -->
+  <script>
+    document.addEventListener('selectionchange', () => {
+      const text = window.getSelection().toString();
+      if (text.trim().length > 0) {
+        navigator.clipboard.writeText(text).catch(() => {});
+      }
+    });
+  </script>
+
+</body>
 </html>
