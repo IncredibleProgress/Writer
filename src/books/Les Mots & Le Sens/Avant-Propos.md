@@ -1,6 +1,6 @@
 ---
 title: Avant-Propos
-date: "2026-01-31"
+date: '2026-01-11'
 --- 
 
 Pour ainsi dire, la sottise est bien confortable ; tandis que la bêtise est envahissante.

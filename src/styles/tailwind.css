@@ -9,6 +9,9 @@ img,
 svg {
   max-width: 100%;
 }
+a:hover {
+  text-decoration: underline;
+}
 ::selection {
   background: rgba(31, 29, 27, 0.12);
 }

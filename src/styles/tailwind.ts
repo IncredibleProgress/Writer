@@ -27,7 +27,7 @@ export class Style {
     articleTitle: {
       font: "text-xs font-semibold uppercase tracking-[0.18em]",
       color: "text-stone-600",
-      space: "mb-6",
+      space: "mt-6 mb-6",
     },
     articleContent: {
       font: "text-[1.1rem] leading-[1.8] tracking-[0.02em]",

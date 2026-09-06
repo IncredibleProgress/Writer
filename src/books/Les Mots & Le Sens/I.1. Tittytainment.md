@@ -1,0 +1,6 @@
+---
+title: Tittytainment
+date: '2025-11-30'
+---
+
+La découverte d’un mot nouveau m’a récemment rappelé qu’ils ont un sens, parfois à donner le vertige tant ce qu’ils signifient peut se révéler édifiant. Le néologisme "tittytainment" est une combinaison des mots anglais "tits" (seins) et "entertainment" (divertissement). Il est apparu en 1995 lors d'une réunion du Global Braintrust réunissant des dirigeants mondiaux à San Francisco, et est attribué à Zbigniew Brzezinski, ancien conseiller à la sécurité nationale des États-Unis. La métaphore suggère un type de divertissement qui, comme le lait maternel pour un bébé, apaise et distrait les masses. Il définit aussi l’idée d’un usage abrutissant des divertissements, visant la satisfaction des besoins élémentaires, et annihilant le développement d’un esprit critique. La fameuse formule romaine "du pain et des jeux" trahit désormais son âge, et "tittytainment" est de nos jours utilisé pour décrire comment les médias, les réseaux sociaux, le divertissement en général, peuvent devenir des outils de contrôle social, détournant l'attention des sujets fondamentaux. Bienheureux que nous sommes, en 30 ans l’idée a fait son chemin, dépassant à l’évidence tous les espoirs de ceux qui ont imaginé s’en servir.

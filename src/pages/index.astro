@@ -1,10 +1,9 @@
 ---
-import '../styles/tailwind.css'
-import { Style } from '../styles/tailwind'
-import { getCollection, render } from 'astro:content'
-const tw = new Style()
-const articles = (await getCollection('articles')).sort(
-  (a, b) => a.data.order - b.data.order)
+import '../styles/tailwind.css';
+import { Style } from '../styles/tailwind';
+import { getCollection, render } from 'astro:content';
+const tw = new Style();
+const articles = (await getCollection('articles'));
 ---
 <html lang="fr">
 <head>
@@ -15,24 +14,12 @@ const articles = (await getCollection('articles')).sort(
 </head>
 <body class="flex mx-auto max-w-5xl">
 
-  <!-- Sidebar -->
-  <aside class="w-40 my-10">
-      <h3>Articles</h3>
-      <nav>
-        <ul>
-          {articles.map(article => (
-            <li class="ml-4 text-sm space-y-2">
-              <a href={`#${article.id}`}>{article.data.title}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-  </aside>
-
   <!-- Articles -->
-  <main class={tw.preset.main()+"flex-1"}>
+  <main class={tw.preset.main()}>
+
     <h1 class={tw.preset.title()}>
-      Les Mots & Le Sens </h1>     
+      Les Mots & Le Sens </h1> 
+
       {articles.map(async (article) => {
         const { Content } = await render(article);
         return (
@@ -44,10 +31,30 @@ const articles = (await getCollection('articles')).sort(
       })}
   </main>
 
+  <!-- Sidebar -->
+  <aside class="ml-4 my-10">
+
+    <h3>Auteur</h3>
+    <a href="https://www.linkedin.com/in/nicolas-champion-0a8517155/" 
+      class="ml-2 text-sm space-y-2">Nicolas Champion</a>
+
+    <h3 class="mt-4">Articles</h3>
+    <nav>
+      <!-- <h3>Les Mots</h3> -->
+      <ul>
+        {articles.map(article => (
+          <li class="ml-2 text-sm space-y-2">
+            <a href={`#${article.id}`}>{article.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </aside>
+
   <!-- Vanilla JavaScript -->
   <script>
     document.addEventListener('selectionchange', () => {
-      const text = window.getSelection().toString();
+      const text = window.getSelection()!.toString();
       if (text.trim().length > 0) {
         navigator.clipboard.writeText(text).catch(() => {});
       }
