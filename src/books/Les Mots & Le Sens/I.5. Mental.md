@@ -1,5 +1,6 @@
 ---
 title: Mental
+status: news
 date: '2026-06-30'
 ---
 

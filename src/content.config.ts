@@ -6,6 +6,7 @@ const articles = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/books' }),
   schema: z.object({
     title: z.string(),
+    status: z.string().optional(),
     date: z.string().optional(),
   }),
 });

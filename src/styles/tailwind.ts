@@ -18,14 +18,13 @@ export class Style {
     title: {
       font: "text-center text-3xl font-light",
       color: "text-stone-950",
-      space: "mb-10",
     },
     articleCard: {
       color: "border-b border-stone-300",
       space: "mb-10",
     },
     articleTitle: {
-      font: "text-xs font-semibold uppercase tracking-[0.18em]",
+      font: "font-semibold uppercase tracking-[0.18em]",
       color: "text-stone-600",
       space: "mt-6 mb-6",
     },
@@ -37,7 +36,11 @@ export class Style {
 
   // Variant style definitions for the project
   public variantValues: Record<string, TwVariant> = {
-    
+    menuItem: {
+      preset: this.presetValues.articleTitle,
+      chain: "text-xs ml-2 space-y-2",
+      omit: "mt-6 mb-6",
+    }
   };
 
   // Functions to generate class strings for presets and variants

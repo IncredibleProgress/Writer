@@ -3,7 +3,8 @@ import '../styles/tailwind.css';
 import { Style } from '../styles/tailwind';
 import { getCollection, render } from 'astro:content';
 const tw = new Style();
-const articles = (await getCollection('articles'));
+const articles = (await getCollection('articles'))
+  .filter(article => article.data.status !== 'draft');
 ---
 <html lang="fr">
 <head>
@@ -18,7 +19,16 @@ const articles = (await getCollection('articles'));
   <main class={tw.preset.main()}>
 
     <h1 class={tw.preset.title()}>
-      Les Mots & Le Sens </h1> 
+      Les Mots & Le Sens </h1>
+
+    <ul class="flex gap-x-4 list-none justify-center mt-3 mb-10">
+      <li class={tw.variant.menuItem()}> 
+        <a href="#les-mots--le-sens/avant-propos">Avant-propos</a></li>
+      <li class={tw.variant.menuItem()}>
+        <a href="#les-mots--le-sens/i5-mental">Nouveautés</a></li>
+      <li class={tw.variant.menuItem()}>
+        <a href="#les-mots--le-sens/i-les-mots">Publication</a></li>
+    </ul>
 
       {articles.map(async (article) => {
         const { Content } = await render(article);
