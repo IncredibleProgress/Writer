@@ -3,7 +3,11 @@
 Publication de textes et de réflexions personnelles avec 
 [Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
 
+Voir le site : https://incredibleprogress.github.io/Writer/
+
 ## Principes
+
+Ci-après le fichier Astro, réduit pour l'exemple et ne contenant pas l'intégralité du code, utilisé pour générer la publication. GitHub Action permet ensuite de déployer automatiquement le code HTML généré sur GitHub Pages à l'adresse indiquée ci-dessus.
 
 ```astro
 ---
