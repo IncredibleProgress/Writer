@@ -22,7 +22,7 @@ const articles = (await getCollection('articles'))
 font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="favicon.png" />
+  <link rel="icon" href="/Writer/favicon.png" />
   <meta name="viewport" content="width=device-width" />
   <title>Writer</title>
 </head>
