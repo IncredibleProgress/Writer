@@ -1,5 +1,29 @@
 # Writer
+
 Publication de textes et de réflexions personnelles avec [Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
+
+```astro
+---
+import '../styles/tailwind.css'
+import { getCollection, render } from 'astro:content'
+const articles = (await getCollection('articles'))
+  .filter(article => article.data.status !== 'draft')
+---
+<html lang="fr" class=
+"text-stone-900 bg-stone-200 selection:bg-stone-300
+font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.png" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Writer</title>
+</head>
+<body class="flex mx-auto max-w-5xl">
+  <main>
+    <h1 class="my-2 text-center text-3xl font-light italic text-stone-950">
+      Les Mots & Le Sens </h1>
+...
+```
 
 ## Publications
 ### Les Mots & Le Sens

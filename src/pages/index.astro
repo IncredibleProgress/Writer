@@ -4,17 +4,13 @@ import { getCollection, render } from 'astro:content'
 
 const articles = (await getCollection('articles'))
   .filter(article => article.data.status !== 'draft')
-
-const twStyle = {
-  //template: layout - spaces - font - color - shape
-}
 ---
 <html lang="fr" class=
 "text-stone-900 bg-stone-200 selection:bg-stone-300
 font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="/favicon.png" />
+  <link rel="icon" href="favicon.png" />
   <meta name="viewport" content="width=device-width" />
   <title>Writer</title>
 </head>
