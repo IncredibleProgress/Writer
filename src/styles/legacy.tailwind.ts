@@ -10,38 +10,10 @@ type TwVariant = { preset?: TwClasses; chain?: string; omit?: string };
 export class Style {
 
   // Preset style definitions for the project
-  public presetValues: Record<string, TwClasses> = {
-    main: {
-      color: "bg-stone-100",
-      layout: "p-8 max-w-3xl min-h-screen rounded-lg",
-    },
-    title: {
-      font: "text-center text-3xl font-light",
-      color: "text-stone-950",
-    },
-    articleCard: {
-      color: "border-b border-stone-300",
-      space: "mb-10",
-    },
-    articleTitle: {
-      font: "font-semibold uppercase tracking-[0.18em]",
-      color: "text-stone-600",
-      space: "mt-6 mb-6",
-    },
-    articleContent: {
-      font: "text-[1.1rem] leading-[1.8] tracking-[0.02em]",
-      space: "mb-6 [&_p]:mb-3 [&_p]:indent-1",
-    },
-  };
+  public presetValues: Record<string, TwClasses> = {};
 
   // Variant style definitions for the project
-  public variantValues: Record<string, TwVariant> = {
-    menuItem: {
-      preset: this.presetValues.articleTitle,
-      chain: "text-xs ml-2 space-y-2",
-      omit: "mt-6 mb-6",
-    }
-  };
+  public variantValues: Record<string, TwVariant> = {};
 
   // Functions to generate class strings for presets and variants
   preset: Record<string, () => string> = {};

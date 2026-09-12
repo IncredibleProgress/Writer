@@ -1,8 +1,9 @@
 # Writer
-Publication de textes et réflexions personnelles avec [Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
+Publication de textes et de réflexions personnelles avec [Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
 
 ## Publications
 ### Les Mots & Le Sens
+#### Avant-propos
 
 Pour ainsi dire, la sottise est bien confortable ; tandis que la bêtise est envahissante.
 

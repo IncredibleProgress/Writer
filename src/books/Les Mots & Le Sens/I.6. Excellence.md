@@ -4,6 +4,14 @@ status: draft
 date: '2024-12-31'
 ---
 
+Bon Fond
+
+L’industrie est porteuse des plus nobles valeurs. En voici une preuve, exprimant mon profond respect pour les mineurs, et ceux qui, par leur labeur, ont fait la France.
+
+« Les personnes fortes ne rabaissent jamais les autres, elles les soulèvent. »
+— Patrimoine culturel des mines d’Albi.
+
+
 **Maintenance Industrielle : choisir l’excellence**
 
 Trop souvent l’idée de maintenance est réduite à l’idée de dépannage agrémentée d’une approche préventive. S’il s’agit bien des missions premières que l’on attend des équipes de maintenance, s’en tenir là est pour la plupart des industries un parti pour le moins périlleux. Ainsi toute dynamique devant conduire à la performance industrielle est mise au ban des objectifs vraisemblablement inatteignables. Ceci car de bonnes capacités en matière de dépannage et de maintenance préventive ne constituent pas en soi une réponse aux questions de sécurité, de fiabilité, d’optimisation, et de maîtrise des coûts. Pourtant les compétences de maintenance ont un rôle clé à jouer et sont à même de créer de la valeur dans tous ces domaines. Dans les faits associer maintenance et performances conduit à développer un éventail plus large de compétences, à entreprendre des changements profonds au sein de l’entreprise, à faire évoluer son organisation. Prendre ce chemin est la seule voie pouvant conduire à l’excellence. Et ce n’est pas un luxe. C’est à la fois un atout et une garantie pour tout industriel cherchant à asseoir sa pérennité et sa rentabilité. Partant d’une expérience de plus de 20 ans en maintenance dans l’industrie, je propose de partager au fil des posts les idées auxquelles je suis attaché, les bons partis issus de mes expériences. À venir au prochain post (c’est du teasing) : les 3 piliers de la maintenance que j’aurai l’occasion de commenter puis d’approfondir par la suite, alors qui m’aime me suive !
