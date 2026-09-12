@@ -7,6 +7,7 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://IncredibleProgress.github.io',
+  base: '/Writer',
   vite: {plugins: [tailwindcss()]},
   integrations: [mdx(), preact()]
 });

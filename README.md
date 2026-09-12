@@ -1,11 +1,15 @@
 # Writer
 
-Publication de textes et de réflexions personnelles avec [Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
+Publication de textes et de réflexions personnelles avec 
+[Astro](https://astro.build/) et [Tailwind CSS](https://tailwindcss.com/).
+
+## Principes
 
 ```astro
 ---
 import '../styles/tailwind.css'
 import { getCollection, render } from 'astro:content'
+// Récupération des articles publiés (markdown files)
 const articles = (await getCollection('articles'))
   .filter(article => article.data.status !== 'draft')
 ---
@@ -19,15 +23,30 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
   <title>Writer</title>
 </head>
 <body class="flex mx-auto max-w-5xl">
-  <main>
-    <h1 class="my-2 text-center text-3xl font-light italic text-stone-950">
-      Les Mots & Le Sens </h1>
-...
+  <!-- Titre de la publication -->
+  <h1 class="my-2 text-center text-3xl font-light italic text-stone-950">
+    Les Mots & Le Sens </h1>
+  <!-- Contenu de la publication -->
+  {articles.map(async (article) => {
+    const { Content } = await render(article)
+    return (
+      <article id={article.id} class=
+      "p-8 mb-10 bg-stone-100 border-b border-stone-300 shadow-lg rounded-lg">
+        <h2 class=
+        "mt-6 mb-6 font-semibold uppercase tracking-[0.18em] text-stone-600">
+          {article.data.title}</h2>
+        <div class=
+        "mb-6 text-[1.1rem] leading-[1.8] tracking-[0.02em] [&_p]:mb-3 [&_p]:indent-1">
+          <Content /></div>
+      </article>
+    );
+  })}
+</body>
+</html>
 ```
 
 ## Publications
 ### Les Mots & Le Sens
-#### Avant-propos
 
 Pour ainsi dire, la sottise est bien confortable ; tandis que la bêtise est envahissante.
 
