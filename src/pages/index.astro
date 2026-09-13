@@ -16,19 +16,19 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
 <body class="flex mx-auto max-w-5xl">
 
   <main>
-    <h1 class="my-2 text-center text-3xl font-light italic text-stone-950">
+    <h1 class="text-center text-3xl font-light italic text-stone-950">
       Les Mots & Le Sens </h1>
 
     <!-- Menu -->
     <div class="sticky top-0 py-1 mb-3 bg-stone-200">
-      <ul class="flex w-full gap-x-4 list-none justify-center">
+      <ul class="flex w-full list-none justify-center gap-x-4">
         <li class=
         "ml-2 space-y-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-600"> 
           <a href="#les-mots--le-sens/avant-propos">
             Avant-propos</a></li>
         <li class=
         "ml-2 space-y-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-600">
-          <a href="#les-mots--le-sens/i5-mental">
+          <a href="#les-mots--le-sens/i7-la-modération">
             Nouveautés</a></li>
         <li class=
         "ml-2 space-y-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-600">
@@ -42,12 +42,14 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
       const { Content } = await render(article)
       return (
         <article id={article.id} class=
-        "p-8 mx-1 mb-10 bg-stone-100 border-b border-stone-300 shadow-lg rounded-lg">
+        "p-2 md:p-10 mb-8 bg-stone-100 border-b border-stone-300 shadow-lg rounded-lg">
           <h2 class=
           "mt-6 mb-6 font-semibold uppercase tracking-[0.18em] text-stone-600">
             {article.data.title}</h2>
           <div class=
-          "mb-6 text-[1.1rem] leading-[1.8] tracking-[0.02em] [&_p]:mb-3 [&_p]:indent-1">
+          "mb-6 text-[1.1rem] leading-[1.8] tracking-[0.02em] [&_p]:mb-3 [&_p]:indent-1
+          [&_h2]:my-2 [&_h2]:text-[1.2rem] [&_h3]:my-2 [&_hr]:my-6 [&_hr]:border-stone-300
+          [&_ul]:ml-3 [&_ol]:ml-3" >
             <Content /></div>
         </article>
       );
@@ -55,7 +57,7 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
   </main>
 
   <!-- Sidebar -->
-  <aside class="sticky top-0 h-full min-w-40 hidden md:block p-4">
+  <aside class="sticky top-0 h-full min-w-40 p-4 hidden md:block">
 
     <h3>Auteur</h3>
     <a class="ml-2 text-sm space-y-2"

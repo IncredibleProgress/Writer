@@ -11,14 +11,10 @@ Dans les temps troublés de la Renaissance, dans une France en proie aux guerres
 
 Montaigne, son audace et sa lucidité, fascinent. Parce que c'est lui que visitaient les rois sans protocole; lui qui se dut la vie pour avoir négocié avec ses ravisseurs; lui qui n'attribuait pas plus de mal au cannibalisme de populations récemment rencontrées qu'à certaines pratiques religieuses admises; lui qui fut l'ami de La Boétie; lui qui n'écrivit qu'une unique œuvre, s'affranchissant des conventions, se présentant tel qu'il était, nu, d'une part afin d'être compris de ses proches et d'honorer la mémoire de son ami défunt, et d'autre part d'inviter tout un chacun à penser par lui-même, sans soumission aveugle à l'autorité, aux dogmes ni aux idées convenues de son époque.
 
-Celui qui accepte de ne pas posséder absolument la vérité devient capable de laisser l'autre penser autrement [1]. La liberté de conscience, telle que nous la concevons de nos jours en France, trouve chez Montaigne une incarnation particulièrement précoce et remarquable. Et si les Essais de Montaigne sont le véhicule, la modération, quant à elle, en constitue le mécanisme.
+Celui qui accepte de ne pas posséder absolument la vérité devient capable de laisser l'autre penser autrement. La liberté de conscience, telle que nous la concevons de nos jours en France, trouve chez Montaigne une incarnation particulièrement précoce et remarquable. Et si les Essais de Montaigne sont le véhicule, la modération, quant à elle, en constitue le mécanisme.
 
-### Notes
-
-[1]: Phrase proposée par ChatGPT à la correction, qui n'existait pas dans le texte original. Au vu du niveau de pertinence et de cohérence avec le reste du texte, j'ai jugé utile de la conserver. On peut noter au passage les progrès et les capacités de l'IA sur de tels sujets.
-
-### Références
-
+----
+## Références
 - Harari, Yuval Noah. *Sapiens: Une brève histoire de l'humanité*. Albin Michel, 2015.
 - Philippe Desan. *La modernité de Montaigne*. Odile Jacob, 2022.
 - Pierre Manent. *La vie sans loi*. Flammarion, 2021 [2014].
