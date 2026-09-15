@@ -1,6 +1,5 @@
 ---
 title: Avant-Propos
-status: foreword
 date: '2026-01-11'
 --- 
 
