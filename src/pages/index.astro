@@ -39,10 +39,11 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
 
     <!-- Articles -->
     {articles.map(async (article) => {
-      const { Content } = await render(article)
+      const { Content } = await render(article);
       return (
-        <article id={article.id} class=
-        "ml-1 mb-6 p-2 lg:p-10 bg-stone-100 border-b border-stone-300 shadow-lg rounded-lg">
+        <article id={article.id} class={
+        `mb-6 p-2 lg:p-10 bg-stone-100 shadow-lg rounded-lg
+        ${article.data.status==='featured' ? "border-x-2 border-amber-200" : ""}`}>
           <h2 class=
           "mt-6 mb-6 font-semibold uppercase tracking-[0.18em] text-stone-600">
             {article.data.title}</h2>
@@ -89,6 +90,5 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
         navigator.clipboard.writeText(text);}
     });
   </script>
-
 </body>
 </html>

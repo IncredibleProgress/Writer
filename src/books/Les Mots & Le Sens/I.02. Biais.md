@@ -1,5 +1,5 @@
 ---
-title: Biais Cognitifs
+title: Biais
 date: '2026-06-12'
 ---
 

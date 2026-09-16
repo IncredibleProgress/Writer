@@ -5,7 +5,7 @@ title: Sommaire
 ### [I. Les Mots](#les-mots--le-sens/i-les-mots)
 
 * [Tittytainment](#les-mots--le-sens/i01-tittytainment)
-* [Biais Cognitifs](#les-mots--le-sens/i02-biais-cognitifs)
+* [Biais](#les-mots--le-sens/i02-biais)
 * [Hubris](#les-mots--le-sens/i03-hubris)
 * [Mondialisation](#les-mots--le-sens/i05-mondialisation)
 * [Colonisation](#les-mots--le-sens/i06-colonisation)
@@ -15,5 +15,5 @@ title: Sommaire
 
 ### II. Galerie
 
-<!-- * [Le Gorille](#les-mots--le-sens/i04-le-gorille) -->
+* [Le Gorille](#les-mots--le-sens/i04-le-gorille)
 * [Bleu Horizon](#les-mots--le-sens/i09-inspiration)

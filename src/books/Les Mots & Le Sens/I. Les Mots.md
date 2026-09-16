@@ -1,5 +1,6 @@
 ---
 title: Les Mots
+status: featured
 date: '2026-01-25'
 ---
 

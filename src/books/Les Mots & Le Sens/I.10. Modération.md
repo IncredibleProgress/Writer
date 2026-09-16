@@ -1,9 +1,10 @@
 ---
 title: De La Modération
+status: featured
 date: '2026-09-13'
 ---
 
-La démesure n'est-elle pas le plus grand mal porté par l'Homme ? Yuval Noah Harari écrira dans *Sapiens* que notre espèce se distingue avant tout par sa capacité à agir de manière coordonnée en grand nombre, en sus d'une certaine propension au massacre. Cette singularité, au service de noirs désirs, pourrait avoir contribué à la disparition des autres hominidés. L'histoire de l'humanité démontrera ensuite qu'une telle puissance, échappant à toute mesure, dégénère régulièrement en force destructrice.
+La démesure n'est-elle pas le plus grand mal porté par l'Homme ? Yuval Noah Harari écrira dans *Sapiens* que notre espèce se distingue avant tout par sa capacité à agir de manière coordonnée en grand nombre, en sus d'une certaine propension au massacre. Cette singularité, au service de noirs désirs, pourrait avoir contribué à la disparition des autres homininés. L'histoire de l'humanité démontrera ensuite qu'une telle puissance, échappant à toute mesure, dégénère régulièrement en force destructrice.
 
 *« Le peuple se trompe : on va bien plus facilement par les bouts, là où l’extrémité sert de borne d’arrêt et de guide, que par la voie du milieu large et ouverte, mais bien moins noblement et de façon moins estimable. »* – Extrait modernisé des Essais de Montaigne.
 
@@ -15,7 +16,7 @@ Celui qui accepte de ne pas posséder absolument la vérité devient capable de 
 
 ----
 ## Références
-- Harari, Yuval Noah. *Sapiens: Une brève histoire de l'humanité*. Albin Michel, 2015.
+- Yuval Noah Harari. *Sapiens: Une brève histoire de l'humanité*. Albin Michel, 2015.
 - Philippe Desan. *La modernité de Montaigne*. Odile Jacob, 2022.
 - Pierre Manent. *Montaigne: la vie sans loi*. Flammarion, 2021 [2014].
 - France Culture. [Montaigne, parce que c'était lui. Podcasts 2026.](https://www.radiofrance.fr/franceculture/podcasts/serie-montaigne-parce-que-c-etait-lui)
