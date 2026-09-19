@@ -1,7 +1,5 @@
 ---
 title: Mental
-status: news
-date: '2026-06-30'
 ---
 
 S’il est admis que la question du mental est prépondérante dans la réussite de nos actions, il est cependant moins commun d’en saisir la portée et les implications. On pressent que concentration et pugnacité vont ici de pair, mais avouons-le, voilà un bien médiocre éclaircissement.

@@ -1,7 +1,6 @@
 ---
 title: Excellence
-status: draft
-date: '2024-12-31'
+release: draft
 ---
 
 Bon Fond

@@ -1,6 +1,5 @@
 ---
 title: Colonisation
-date: '2026-02-28'
 ---
 
 L’histoire séculaire d’Israël met en lumière avec acuité un principe existentiel des États-nations, aussi nécessaire à l’affirmation des peuples souverains que redoutable par sa propension à muer en ferment de la guerre.

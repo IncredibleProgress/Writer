@@ -1,6 +1,5 @@
 ---
 title: Hubris
-date: '2026-06-12'
 ---
 
 Pourquoi des femmes compétentes n'accèdent-elles pas au pouvoir au même titre que des hommes compétents ? Et pourquoi l’incompétence semble-t-elle régner aussi régulièrement au sein des élites ? C’est en lisant un article traitant de la première question qu’un lien m’est apparu avec la seconde. La conclusion à venir pourrait vous surprendre, elle répond aux deux questions.

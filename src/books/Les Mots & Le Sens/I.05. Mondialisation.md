@@ -1,6 +1,5 @@
 ---
 title: Mondialisation
-date: '2026-02-08'
 ---
 
 Pour tout ce qu’il révèle de l’aveuglement dont nous avons fait preuve, voici l’un des mots que j’exècre. Mais avant toute chose, je veux préciser qu’il n’y a rien ici qui aille à l’encontre du commerce, et là n’est pas le propos.

@@ -2,7 +2,7 @@
 import '../styles/tailwind.css'
 import { getCollection, render } from 'astro:content'
 const articles = (await getCollection('articles'))
-  .filter(article => article.data.status !== 'draft')
+  .filter(article => article.data.release !== 'draft')
 ---
 <html lang="fr" class=
 "text-stone-900 bg-stone-200 selection:bg-stone-300
@@ -16,11 +16,11 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
 <body class="flex mx-auto max-w-5xl">
 
   <main>
-    <h1 class="text-center text-3xl font-light italic text-stone-800">
+    <h1 class="my-2 text-center text-3xl font-light italic text-stone-800">
       Les Mots & Le Sens </h1>
 
     <!-- Menu -->
-    <div class="sticky top-0 py-1 mb-3 bg-stone-200">
+    <div class="sticky top-0 py-1 mb-4 bg-stone-200">
       <ul class="flex w-full list-none justify-center md:gap-x-6">
         <li class=
         "ml-2 space-y-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-600"> 
@@ -43,14 +43,14 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
       return (
         <article id={article.id} class={
         `mb-6 p-2 lg:p-10 bg-stone-100 shadow-lg rounded-lg
-        ${article.data.status==='featured' ? "border-x-2 border-amber-200" : ""}`}>
+        ${ article.data.release ? "border-x-2 border-stone-400" : "" }`}>
           <h2 class=
           "mt-6 mb-6 font-semibold uppercase tracking-[0.18em] text-stone-600">
             {article.data.title}</h2>
           <div class=
           "mb-6 text-[1.1rem] leading-[1.8] tracking-[0.02em] [&_p]:mb-3 [&_p]:indent-1
-          [&_h2]:my-2 [&_h2]:text-[1.2rem] [&_h3]:my-2 [&_hr]:my-6 [&_hr]:border-stone-300
-          [&_a]:text-blue-900 [&_ul]:ml-3 [&_ol]:ml-3">
+          [&_h1]:my-2 [&_h1]:text-[1.2rem] [&_h2]:my-2 [&_h3]:my-1 [&_h3]:text-[1rem] 
+          [&_hr]:my-6 [&_hr]:border-stone-300 [&_a]:text-blue-900 [&_ul]:ml-3 [&_ol]:ml-3">
             <Content /></div>
         </article>
       );
@@ -58,25 +58,24 @@ font-['Iowan_Old_Style','Palatino_Linotype','Book_Antiqua',Georgia,serif]">
   </main>
 
   <!-- Sidebar -->
-  <aside class="sticky top-0 h-full hidden md:block text-stone-500 min-w-40 p-4">
-
+  <aside class="sticky top-0 h-full hidden md:block text-stone-600 min-w-40 p-4">
     <h3>Auteur</h3>
-    <a class="ml-2 text-sm space-y-2"
+    <a class="ml-2 text-sm space-y-2 hover:text-stone-700"
     href="https://www.linkedin.com/in/nicolas-champion-0a8517155/">
       Nicolas Champion</a>
     <p class="ml-2 text-sm space-y-2 italic">
-      © copyright 2026</p>
-
+      Copyright © 2026</p>
     <h3 class="mt-4">Articles</h3>
-    <nav><ul>
-      {articles.map(article => (
-        <li class="ml-2 text-sm space-y-2">
-          <a href={`#${article.id}`}>{article.data.title}</a>
-        </li>
-      ))}
-    </ul></nav>
-
-    <p class="mt-4 italic">
+    <nav>
+      <ul>
+        {articles.map(article => (
+          <li class="ml-2 text-sm space-y-2 hover:text-stone-700">
+            <a href={`#${article.id}`}>{article.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <p class="mt-4 italic hover:text-stone-700">
       <a href="https://github.com/IncredibleProgress/Writer">
         publié avec Writer</a>
     </p>

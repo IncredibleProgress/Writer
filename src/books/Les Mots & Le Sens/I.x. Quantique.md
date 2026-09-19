@@ -1,7 +1,6 @@
 ---
 title: Quantique
-status: draft
-date: '2024-12-31'
+release: draft
 ---
 
 *Une probabilité plus élevée de résultats pour des calculs infaisables.*

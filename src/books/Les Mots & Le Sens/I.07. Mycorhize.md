@@ -1,6 +1,5 @@
 ---
 title: Mycorhize
-date: '2026-09-12'
 ---
 
 Alors que certaines associations sont préférables à d’autres, quelques-unes se révèlent déterminantes. Et s’il n’est pas question d’un quelconque dessein, c’est qu’avant tout, cela relève de la contingence. Il faut donc considérer que si toutes les unions ne sont pas souhaitables, il est bénéfique d’augmenter les chances de faire naître celles dont on pourra tirer avantage.

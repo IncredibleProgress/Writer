@@ -1,7 +1,6 @@
 ---
 title: Avant-Propos
-status: featured
-date: '2026-01-11'
+release: '2026-01-11'
 --- 
 
 Pour ainsi dire, la sottise est bien confortable ; tandis que la bêtise est envahissante.

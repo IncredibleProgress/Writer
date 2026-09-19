@@ -1,8 +1,8 @@
 ---
 title: Sommaire
 ---
-### [Avant-propos](#les-mots--le-sens/-avant-propos)
-### [I. Les Mots](#les-mots--le-sens/i-les-mots)
+## [Avant-propos](#les-mots--le-sens/-avant-propos)
+## [I. Les Mots](#les-mots--le-sens/i-les-mots)
 
 * [Tittytainment](#les-mots--le-sens/i01-tittytainment)
 * [Biais](#les-mots--le-sens/i02-biais)
@@ -13,7 +13,7 @@ title: Sommaire
 * [Mental](#les-mots--le-sens/i08-mental)
 * [De La Modération](#les-mots--le-sens/i10-mod%C3%A9ration)
 
-### II. Galerie
+## II. [Les Images](#les-mots--le-sens/i09-inspiration)
 
 * [Le Gorille](#les-mots--le-sens/i04-le-gorille)
 * [Bleu Horizon](#les-mots--le-sens/i09-inspiration)

@@ -1,7 +1,6 @@
 ---
 title: De La Modération
-status: featured
-date: '2026-09-13'
+release: '2026-09-13'
 ---
 
 La démesure n'est-elle pas le plus grand mal porté par l'Homme ? Yuval Noah Harari écrira dans *Sapiens* que notre espèce se distingue avant tout par sa capacité à agir de manière coordonnée en grand nombre, en sus d'une certaine propension au massacre. Cette singularité, au service de noirs désirs, pourrait avoir contribué à la disparition des autres homininés. L'histoire de l'humanité démontrera ensuite qu'une telle puissance, échappant à toute mesure, dégénère régulièrement en force destructrice.

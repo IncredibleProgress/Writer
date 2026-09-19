@@ -1,6 +1,5 @@
 ---
 title: Biais
-date: '2026-06-12'
 ---
 
 L’évolution nous a dotés de deux systèmes de pensée fonctionnant en tandem. Le premier, [le système 1 de Daniel Kahneman](https://fr.wikipedia.org/wiki/Syst%C3%A8me_1_/_Syst%C3%A8me_2_:_Les_deux_vitesses_de_la_pens%C3%A9e), est celui où émotions et réflexes conditionnent nos comportements, et influent directement sur la pensée. Il est rapide et peu consommateur d'énergie. Le second, le système 2, est lent, énergivore, il exige de se concentrer, et à ce coût seulement permet de construire des raisonnements logiques, de résoudre les problèmes nouveaux ou complexes, hors de portée du système 1. C’est aussi ce que l'on a appelé la matière grise, en référence au tissu nerveux occupant la majeure partie de notre cerveau.
