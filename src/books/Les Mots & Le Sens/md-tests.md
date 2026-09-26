@@ -1,5 +1,5 @@
 ---
-title: Tests
+title: Markdown Tests
 release: draft
 ---
 
@@ -7,3 +7,10 @@ release: draft
 ## Titre 2
 ### Titre 3
 
+1er paragraphe.
+
+2nd paragraphe.
+
+* item 1
+* item 2
+* item 3

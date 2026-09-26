@@ -1,13 +1,21 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
-import preact from '@astrojs/preact';
+// import preact from '@astrojs/preact';
 import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://IncredibleProgress.github.io',
-  base: '/Writer',
-  vite: {plugins: [tailwindcss()]},
-  integrations: [mdx(), preact()]
+    site: 'https://IncredibleProgress.github.io',
+    base: '/Writer',
+    vite: {
+        plugins: [
+            tailwindcss(),
+            // require('@tailwindcss/typography')
+        ]
+    },
+    integrations: [
+        mdx(), 
+        // preact()
+    ]
 });

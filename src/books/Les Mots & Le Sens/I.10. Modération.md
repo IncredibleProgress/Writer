@@ -14,6 +14,7 @@ Montaigne, son audace et sa lucidité, fascinent. Parce que c'était lui que vis
 Celui qui accepte de ne pas posséder absolument la vérité devient capable de laisser l'autre penser différemment. La liberté de conscience, telle que nous la concevons de nos jours en France, trouve chez Montaigne une incarnation particulièrement précoce et remarquable. Et si les Essais de Montaigne sont le véhicule, la modération, quant à elle, en constitue le mécanisme.
 
 ----
+
 ## Références
 - Yuval Noah Harari. *Sapiens: Une brève histoire de l'humanité*. Albin Michel, 2015.
 - Philippe Desan. *La modernité de Montaigne*. Odile Jacob, 2022.

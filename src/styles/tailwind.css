@@ -1,9 +1,6 @@
 @import "tailwindcss";
+/* @plugin "@tailwindcss/typography"; */
 
-img,
-svg {
-  max-width: 100%;
-}
 a:hover {
   text-decoration: underline;
 }
